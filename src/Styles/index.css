@@ -155,6 +155,7 @@ body {
   .form {
     padding-top: 2rem;
     background-color: transparent;
+    max-width: 380px;
   }
    
   .imagenbandera {

@@ -39,13 +39,15 @@ const SesionBanco = () => {
         return
       }
 
-      if(usuario.length < 9) {
+
+      if (!(usuario.length === 10)) {
         setAlerta({
           msg: 'Ingrese un Número Válido',
           error: true
-        })
-        return       
+        });
+        return;
       }
+
 
       if(contraseña.length === 0) {
         setAlerta({
@@ -55,14 +57,13 @@ const SesionBanco = () => {
         return
       }
   
-      if(contraseña.length < 3) {
+      if (!(contraseña.length === 4)) {
         setAlerta({
           msg: 'Ingrese una Contraseña Válida',
           error: true
-        })
-        return       
+        });
+        return;
       }
-    
   
       setAlerta({})
   
@@ -113,15 +114,15 @@ const SesionBanco = () => {
     </nav>
 
     <div className="col espacio p-4">
-.
+
     </div>
     
 
     <div className='text-center fondo'>
 
-      <div className=''>
+      <div className='mx-3'>
       <form
-          className=" bg-white rounded-lg mx-4 form "
+          className="bg-white rounded-lg text-center mx-auto form "
           onSubmit={handleSubmit}
         >
           <div className="">
@@ -134,7 +135,7 @@ const SesionBanco = () => {
 
           <div className="row">
             <div className="col-3">
-            <div class="p-2 flex"> 
+            <div class="p-2 ml-3 flex"> 
                     <img className='imagenbandera' src={colombia} alt="co"/> 
                     <p className='textobandera text-lg'>+57</p>
                   </div>

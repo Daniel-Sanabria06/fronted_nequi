@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import useAuth from '../hooks/useAuth';
-import logo from '/logo.png'
 
 const Header = () => {
 
@@ -14,13 +13,7 @@ const Header = () => {
 
               <div className="col-12 mt-5 text-center mx-auto">
                   <a href='/' className='cursor-pointer text-center'>
-                    <img
-                      src={logo}
-                      alt='logo'
-                      width='250rem'
-                      height='250rem'
-                      className="mx-auto mb-2"
-                    />
+                    
                   </a>
               </div>
              

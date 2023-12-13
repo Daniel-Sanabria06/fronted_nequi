@@ -17,7 +17,7 @@ import { FiYoutube } from "react-icons/fi";
 const Footer = () => {
   return (
     <>
-       <div className="footer h-1/2 lg2:mt-12 w-full flex md2:flex-row flex-col justify-around items-start">
+       <div className="footer h-1/2 w-full flex md2:flex-row flex-col justify-around items-start">
 				<div className="p-5 ">
 					<div className="row">
 						<div className="col-5">
