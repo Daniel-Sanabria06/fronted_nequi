@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: rgb(2 132 199 );
+  --negro: #262626;
+  --blanco: #FFF;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+}
+
+  [class*="heading"] {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(2 132 199 );
+  }
+  
+  @media (max-width: 600px) {
+    [class*="heading"]{
+      font-size: 3rem;
+    }
+  }
+
+
+  .paginainst {
+    background-color: #FFC72C;
+    color: #1F4592;
+    border-radius: 10px;
+  }
+
+  .cosoAmarillo {
+    background-color: #FFC72C;
+    border-radius: 10px;
+    
+  }
+
+  .textoAmarillo {
+    font-size: 35px;
+    text-align: start;
+    font-weight: 700;
+    color: #0033a0;
+  }
+
+  .textoAmarillo2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #0033a0;
+  }
+
+  .botonRojo{
+    background-color: rgb( 243, 4, 55); 
+  }
+
+  .footer {
+    background-color: #200020;
+  }
+
+  .textoFooter {
+    font-size: 30px;
+    text-align: left;
+    color: #c1c1c1;
+    font-weight: 700;
+  }
+
+  .cajonFooter {
+    font-size: 20px;
+    text-align: left;
+    color: #9a9a9a;
+    font-weight: 500;
+  }
+
+  .tituloBanco {
+    font-weight: 600;
+  }
+
+  .fondoAmarillo{
+    background-color: #FFC72C;
+  }
+
+  .cosoAzul {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #002D7C;
+  }
+
+   .cosoAzul2 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #002D7C;
+  }
+
+  .botonFinal {
+    margin-bottom: 100%;
+  }
+
+  .textoGris {
+    background-color: #cdcdcd;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .inputExpiracion {
+    background-color: #F9FAFB;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .cancelarTransaccion{
+    color: black;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+
+ 
+  
+  .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .separator {
+    width: 1px;
+    height: 20px;
+    margin: 0 10px;
+  }
+  
+
+  .menuhamburguesa {
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  .fondo {
+    background-image: url('/fondo.png');
+    background-position: center;
+    padding-bottom: 7rem;
+  }
+
+  .espacio {
+    background-color: #FBE5F2;
+  }
+
+  .form {
+    padding-top: 2rem;
+    background-color: transparent;
+  }
+   
+  .imagenbandera {
+    margin-top: 18px;
+    margin-left: 5px;
+    width: 45px;
+    height: 25px;
+  }
+
+  .textobandera {
+    margin-top: 16px;
+    padding-left: 3px;
+  }
+
+  .colordeinput{
+    background-color: #FBF7FB;
+  }
+
+  .checkbox{
+    transform: scale(1.8);
+    
+  }
+
+  .contenedorfondo{
+    background-color: #F8F8F8;
+  }
+  
+  .imagencaptcha{
+    width: 70px;
+    height: 40px;
+  }
+
+  .botonnequi{
+    background-color: #da0081;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    padding: 1px 30px;
+    margin-bottom: 0rem;
+  }
